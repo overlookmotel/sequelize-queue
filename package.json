@@ -1,0 +1,53 @@
+{
+  "name": "sequelize-queue",
+  "version": "0.0.0",
+  "description": "A worker queue persisted to a Sequelize model",
+  "main": "./lib/",
+  "author": {
+    "name": "Overlook Motel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/overlookmotel/sequelize-queue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/overlookmotel/sequelize-queue/issues"
+  },
+  "dependencies": {
+    "lodash": "2.4.1"
+  },
+  "peerDependencies": {
+    "sequelize": "2.0.x"
+  },
+  "devDependencies": {
+    "mocha": "2.0.x",
+    "chai": "1.9.x",
+    "chai-as-promised": "4.1.x",
+    "sequelize": "git://github.com/sequelize/sequelize.git",
+    "mysql": "~2.5.0",
+    "sqlite3": "~3.0.0",
+    "pg": "~3.6.0",
+    "mariasql": "~0.1.2",
+    "jshint": "2.5.x"
+  },
+  "keywords": [
+    "sequelize",
+    "sequelize-plugin",
+    "queue",
+    "job",
+    "worker"
+  ],
+  "scripts": {
+    "test": "make all"
+  },
+  "engines": {
+    "node": ">=0.6.21"
+  },
+  "readmeFilename": "README.md",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/overlookmotel/sequelize-queue/raw/master/License"
+    }
+  ]
+}

@@ -7,3 +7,7 @@
 ## 0.0.2
 
 * Update README
+
+## Next
+
+* Change travis config to allow SQLite to fail tests

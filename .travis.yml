@@ -13,6 +13,11 @@ env:
   - DB=mysql DIALECT=sqlite
   - DB=mysql DIALECT=mariadb
 
+matrix:
+  fast_finish: true
+  allow_failures:
+    - env: DB=mysql DIALECT=sqlite
+
 language: node_js
 
 node_js:

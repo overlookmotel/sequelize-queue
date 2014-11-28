@@ -32,7 +32,6 @@
   },
   "keywords": [
     "sequelize",
-    "sequelize-plugin",
     "queue",
     "job",
     "worker"

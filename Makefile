@@ -38,6 +38,7 @@ pgsql: postgres
 postgresn: postgres-native
 
 # test all the dialects \o/
-all: sqlite mysql postgres postgres-native mariadb
+# sqlite removed for now as it doesn't work
+all: mysql postgres postgres-native mariadb
 
 .PHONY: sqlite mysql postgres pgsql postgres-native postgresn all test

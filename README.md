@@ -6,6 +6,8 @@
 
 Uses [Sequelize](http://sequelizejs.com/) to implement a worker queue.
 
+Packages like [queue](https://www.npmjs.org/package/queue) do a very nice job of keeping an in-memory job queue. But what about longer jobs where there's a danger that the process might crash before all the jobs are complete? Saving the jobs to a database via Sequelize comes to the rescue!
+
 ## Current status
 
 [![Build Status](https://secure.travis-ci.org/overlookmotel/sequelize-queue.png?branch=master)](http://travis-ci.org/overlookmotel/sequelize-queue)

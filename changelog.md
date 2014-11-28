@@ -8,7 +8,7 @@
 
 * Update README
 
-## Next
+## 0.0.3
 
 * Success handler callback function is passed result of the job
 * Change travis config to allow SQLite to fail tests

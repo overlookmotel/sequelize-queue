@@ -1,5 +1,7 @@
 # sequelize-queue.js
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/overlookmotel/sequelize-queue.svg)](https://greenkeeper.io/)
+
 # A worker queue persisted to a Sequelize model
 
 ## What's it for?

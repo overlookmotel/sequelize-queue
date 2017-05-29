@@ -27,6 +27,7 @@ branches:
   only:
     - master
     - dev
+    - /^greenkeeper/.*$/
 
 cache:
   directories:
